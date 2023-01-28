@@ -1,0 +1,47 @@
+.nav{
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    /* margin: .5rem 1rem; */
+    padding: 1rem;
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+}
+.nav ul li{
+    margin: 0 10px;
+}
+.nav a{
+    font-size: 1.1rem;
+    /* font-weight: bold; */
+    text-transform: uppercase;
+}
+.nav .search_cart{
+    width: 20vw;
+    display: flex;
+}
+.form_data{
+    border: 1px solid black;
+    padding: .3rem .1rem;
+    border-radius: 2px;
+    color: black;
+}
+.search_cart input[type="text"]{
+    outline: none;
+    border: none;
+    color: black;
+    background: none;
+}
+.search_cart input[type="submit"]{
+    background: none;
+    border: none;
+    font-size: 20px;
+}
+.search_cart button{
+    background: none;
+    border: none;
+    color: black;
+    width: 20%;
+    cursor: pointer;
+}
