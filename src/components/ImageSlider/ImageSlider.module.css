@@ -1,0 +1,89 @@
+.image_slider{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* overflow-x: scroll; */
+    /* overflow-y: hidden; */
+}
+.image_slider .image{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    position: relative;
+}
+.image_slider .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow-x: scroll;
+}
+.image_slider .image .text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+.image_slider .image .text h1{
+    font-size: 3rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+.image_slider .image .text p{
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+.image_slider .image .text a{
+    text-decoration: none;
+    color: white;
+    padding: .5rem 1rem;
+    border: 1px solid white;
+    border-radius: 2px;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.image_slider .image .text a:hover{
+    background: white;
+    color: black;
+}
+.image_slider .image .text a:active{
+    background: white;
+    color: black;
+}
+.image_slider .image .text a:focus{
+    background: white;
+    color: black;
+}
+.image_slider .image .text a:visited{
+    background: white;
+    color: black;
+}
+@keyframes slide {
+    0% {
+        background-position: 0 0;
+    }
+    16.66% {
+        background-position: 0 0;
+    }
+    33.32% {
+        background-position: -800px 0;
+    }
+    49.98% {
+        background-position: -800px 0;
+    }
+    66.64% {
+        background-position: -1600px 0;
+    }
+    83.30% {
+        background-position: -1600px 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}

@@ -1,0 +1,15 @@
+.title_path{
+    width: 100%;
+    height: 30vh;
+    text-align: center;
+    background-color: #ccc;
+    margin:  auto;
+    padding: 20px;
+    /* color: white; */
+}
+.title_path p{
+    font-size: 1.2rem;
+}
+.title_path span{
+    color: blue;
+}

@@ -10,7 +10,7 @@ function NavigationComponent() {
     return (
         <nav className={navStyles.nav}>
             <h1 className={gothic.className}>Smart Bidder</h1>
-            <ul>
+            <ul >
                 <li>
                     <Link href="/">Home</Link>
                 </li>

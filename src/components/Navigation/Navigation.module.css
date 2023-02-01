@@ -2,8 +2,10 @@
     display: flex;
     width: 100vw;
     justify-content: space-between;
+    align-items: center;
     /* margin: .5rem 1rem; */
     padding: 1rem;
+    border-bottom: 1px solid black;
 }
 .nav ul{
     display: flex;
@@ -16,22 +18,26 @@
     font-size: 1.1rem;
     /* font-weight: bold; */
     text-transform: uppercase;
+    font-weight: 500;
 }
 .nav .search_cart{
     width: 20vw;
     display: flex;
+    border: 1px solid black;
 }
 .form_data{
     border: 1px solid black;
-    padding: .3rem .1rem;
+    padding: .3rem 0;
     border-radius: 2px;
     color: black;
+    width: 15vw;
 }
 .search_cart input[type="text"]{
     outline: none;
     border: none;
     color: black;
     background: none;
+    width: 80%;
 }
 .search_cart input[type="submit"]{
     background: none;
